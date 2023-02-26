@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jogo de não acertar as bombas</title>
+    <style>
+      img {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+      }
+    </style>
+    <script>
+      function clickBomba() {
+        alert("Game over! Você acertou uma bomba.");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Jogo de não acertar as bombas</h1>
+    <img src="bomba1.jpg" onclick="clickBomba()">
+    <img src="bomba2.jpg" onclick="clickBomba()">
+    <img src="bomba3.jpg" onclick="clickBomba()">
+    <img src="nao_bomba1.jpg">
+    <img src="nao_bomba2.jpg">
+    <img src="nao_bomba3.jpg">
+  </body>
+</html>
+
